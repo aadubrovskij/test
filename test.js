@@ -1,6 +1,6 @@
 const MODULE_NAME = "SubmoduleA"
 
-console.log("%c Connection to  set! \n Overseer library is:", "background: skyblue")
+console.log("%c Connection to ${MODULE_NAME} set! \n Overseer library is:", "background: skyblue")
 console.log({
     overseerLibrary: window.overseerLibrary,
 })
